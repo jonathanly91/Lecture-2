@@ -7,8 +7,7 @@ Problem : Create variables to store the following information about a stock :
 - Opening prince : 145.5
 - Closing price : 146.3
 - Volume of shares traded : 100000'''
-
-# Solution :
+#solution :
 ticker = "AAPL"
 opening_price = 145.5
 closing_price = 146.3
@@ -21,8 +20,7 @@ Problem : Create variables to store the following information about a currency e
 Currency pair : EUR/USD
 Buying rate : 1.1825
 Selling rate : 1.1830'''
-
-# Solution :
+#Solution :
 currency_pair = "EUR/USD"
 buying_rate = 1.1825
 selling_rate = 1.1830
@@ -32,7 +30,7 @@ print(variables)
 
 '''Exercice 1.3 : Portfolio list
 Problem : Given a list of stocks, create a new list that adds Tesla to this portfolio. Print the new list.'''
-# Solution :
+#Solution :
 stocks = ["APPL", "MSFT", "GOOGL"]
 stocks.append("TSLA")
 print(stocks)
@@ -40,8 +38,7 @@ print(stocks)
 
 '''Exercice 1.4 : Adding more stocks
 Problem : Given the previous list of stocks, add Tesla, IBM, and General Electric to the portfolio.'''
-
-# Solution :
+#Solution :
 stocks = ["APPL", "MSFT", "GOOGL"]
 new_stocks = ["TSLA", "IBM", "GE"]
 stocks.append(new_stocks)
