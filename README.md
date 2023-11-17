@@ -68,3 +68,11 @@ about a bond:
 ∗ Maturity Date
 ∗ Coupon Rate
 ∗ Face Value
+Solution :'''
+bond_details = {
+    "Issuer" : "France",
+    "Maturity Date" : "5 years",
+    "Coupon Rate" : 1.25,
+    "Face Value" : 25,
+}
+print(bond_details)
